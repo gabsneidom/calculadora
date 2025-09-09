@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div id="content">
+      <header></header>
+
+      <main>
+        <div class="row">
+          <button onclick="somar()">+</button>
+          <button onclick="subtrair()">-</button>
+          <button onclick="multiplicar()">x</button>
+          <button onclick="dividir()">÷</button>
+        </div>
+
+        <div class="row">
+          <button onclick="selecionarNumero(this)">7</button>
+          <button onclick="selecionarNumero(this)">8</button>
+          <button onclick="selecionarNumero(this)">9</button>
+          <button onclick="apagar()">
+            <ion-icon name="backspace"></ion-icon>
+          </button>
+        </div>
+
+        <div class="row">
+          <button onclick="selecionarNumero(this)">4</button>
+          <button onclick="selecionarNumero(this)">5</button>
+          <button onclick="selecionarNumero(this)">6</button>
+          <button onclick="resultado()">=</button>
+        </div>
+
+        <div class="row">
+          <button onclick="selecionarNumero(this)">1</button>
+          <button onclick="selecionarNumero(this)">2</button>
+          <button onclick="selecionarNumero(this)">3</button>
+          <button onclick="selecionarNumero(this)">0</button>
+        </div>
+      </main>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
