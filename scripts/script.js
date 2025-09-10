@@ -47,7 +47,7 @@ function multiplicar() {
 
     display.innerText = "";
 
-    operacao = "subtrair";
+    operacao = "multiplicar";
 }
 
 function dividir() {
