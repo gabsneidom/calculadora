@@ -10,12 +10,15 @@ body {
   margin-top: 50px;
 }
 
-header {
-  width: 50%;
-  height: 200px;
+#display {
+  width: 50vw;
+  height: 30vh;
   display: flex;
   padding-top: 10%;
   background-color: #2a0906;
+  align-items: end;
+  padding-right: 20px;
+  padding-bottom: 20px;
   justify-content: end;
   font-size: 50px;
   color: #ffffad;
